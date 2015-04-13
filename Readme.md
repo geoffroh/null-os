@@ -1,8 +1,6 @@
 Creates a bootable disk image in assembly.
 Following basic steps on http://mikeos.sourceforge.net/write-your-own-os.html
 
-Steps:
-
 1. compile with nasm:
   ```
   nasm -f bin -o boot.bin boot.asm
@@ -15,4 +13,3 @@ Steps:
   ```
   qemu-system-i386 -fda boot.flp
   ```
-
